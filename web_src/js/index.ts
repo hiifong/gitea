@@ -93,6 +93,7 @@ import {
   initGlobalShowModal,
 } from './features/common-button.ts';
 import {initGlobalEnterQuickSubmit, initGlobalFormDirtyLeaveConfirm} from './features/common-form.ts';
+import {initProfileOrgList} from './components/ProfileOrgList.vue';
 
 initGiteaFomantic();
 initDirAuto();
@@ -227,6 +228,8 @@ onDomReady(() => {
     initPdfViewer,
     initScopedAccessTokenCategories,
     initColorPickers,
+
+    initProfileOrgList,
 
     initOAuth2SettingsDisableCheckbox,
   ]);
